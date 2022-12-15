@@ -10,7 +10,7 @@ import {ILevel} from '../../types';
 
 
 
-const app = () => {
+const Game = () => {
 
   const {grid, gameState, flagMode, setFlagMode, setDifficultyLevel, handleClickCell, initGame} = useBoard()
 
@@ -30,4 +30,4 @@ const app = () => {
 
 
 
-export default app;
+export default Game;

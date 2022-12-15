@@ -9,3 +9,7 @@ This project uses expo.
 
 ## run project
 `expo start`
+
+if you have any issues running project, try:
+
+`expo start --tunnel`
