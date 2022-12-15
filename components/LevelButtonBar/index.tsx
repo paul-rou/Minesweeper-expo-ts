@@ -7,7 +7,7 @@ import * as Constants from '../../constants';
 
 const LevelButtonBar: React.FC<ILevelButtonBar> = ({setDifficultyLevel}) => {
 
-    const [levelButtonPressed, setLevelButtonPressed] = useState("")
+    const [levelButtonPressed, setLevelButtonPressed] = useState("intermediary")
 
     return (
         <View style={styles.levelButtonWrapper}>
